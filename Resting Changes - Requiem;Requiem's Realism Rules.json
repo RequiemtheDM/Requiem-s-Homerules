@@ -8,7 +8,7 @@
 				"authors": [
 					"Requiem"
 				],
-				"version": "1.02",
+				"version": "1.03",
 				"url": "https://github.com/RequiemtheDM/Requiem-s-Realism-Homerules/blob/master/Resting%20Changes%20-%20Requiem;Requiem's%20Realism%20Rules.json#L1",
 				"targetSchema": "1.0.0"
 			}
@@ -42,7 +42,7 @@
 						"entries": [
 								"A short rest is a period of extended downtime, at least eight hours long, during which a character sleeps for at least 6 hours and performs no more than 2 hours of light activity, such as reading, talking, eating, or standing watch. If the rest is interrupted by a period of strenuous activity— such as walking, fighting, expending spell slots, or similar adventuring activity, the characters must begin the rest again to gain any benefit from it.",
 								"At the end of a short rest, a character regains hit points equal to their level plus their Constitution modifier(minimum of one hit point). Additionally, a character who makes a successful DC 15 Wisdom({@skill Medicine}) check regains spent Hit Dice, up to half the character's total number of them(minimum of one Hit Die). Expending one use of a {@item Healer's Kit|phb} grants advantage on this check.",
-								"Additionally, a character who has at least one hit point at the start of a short rest has their current exhaustion level reduced by one.",
+								"Additionally, at the end of a short rest, a character's current exhaustion level reduced by one.",
 								"A character can't benefit from more than one short rest in a 24-hour period, and a character must have at least 1 hit point at the start of the rest to gain its benefits."
 						]
 					},
