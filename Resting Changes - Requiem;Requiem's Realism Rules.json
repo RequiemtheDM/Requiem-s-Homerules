@@ -1,0 +1,59 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "rrhr",
+				"abbreviation": "RRHR",
+				"full": "Requiem's Realism Homerules",
+				"authors": [
+					"Requiem"
+				],
+				"version": "1.0",
+				"targetSchema": "1.0.0"
+			}
+		]
+	},
+	"variantrule": [
+		{
+			"type": "entries",
+			"name": "Resting Changes",
+			"entries": [
+					{
+						"type": "entries",
+						"name": "Short Breather",
+						"entries": [
+								"A short breather is a period of downtime, at least 5 minutes long during which a character does nothing more strenuous than eating, drinking, reading, and tending to wounds.",
+								"A character who makes a successful DC 15 Wisdom({@skill Medicine}) check regains hitpoints equal to their Constitution modifier(minimum of one hit point) at the end of a short breather. By expending one use of a {@item Healer's Kit|phb}, this check succeeds automatically."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Long Breather",
+						"entries": [
+								"A long breather is a period of downtime, at least one hour long, during which a character does nothing more strenuous than eating, drinking, reading, and tending to wounds.",
+								"At the end of a long breather, A character who makes a successful DC 15 Wisdom({@skill Medicine}) check can spend one or more Hit Dice, up to half the character's maximum number of Hit Dice, which is equal to the character's level. Expending one use of a {@item Healer's Kit|phb} grants advantage on this check. For each Hit Die spent in this way, the player rolls the die and adds the character's Constitution modifier to it. The character regains hit points equal to the total. After applying your Constitution modifier to a Hit Die roll, you regain a minimum of 0 hit points. The player can decide to spend an additional Hit Die after each roll. A character regains some spent Hit Dice upon finishing a short or long rest, as explained below. Additionally spellcasters regain up to half of their maximum spell slots(rounded down), but none of the slots recovered may be of 6th-level or higher.",
+								"A character must complete a short or a long rest before they can benefit from another long breather."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Short Rest",
+						"entries": [
+								"A short rest is a period of extended downtime, at least eight hours long, during which a character sleeps for at least 6 hours and performs no more than 2 hours of light activity, such as reading, talking, eating, or standing watch. If the rest is interrupted by a period of strenuous activity— such as walking, fighting, expending spell slots, or similar adventuring activity, the characters must begin the rest again to gain any benefit from it.",
+								"At the end of a short rest, a character regains hit points equal to their level plus their Constitution modifier(minimum of one hit point). Additionally, a character who makes a successful DC 15 Wisdom({@skill Medicine}) check regains spent Hit Dice, up to half the character's total number of them(minimum of one Hit Die). Expending one use of a {@item Healer's Kit|phb} grants advantage on this check.",
+								"Additionally, a character who has at least one hit point at the start of a short rest has their current exhaustion level reduced by one.",
+								"A character can't benefit from more than one short rest in a 24-hour period, and a character must have at least 1 hit point at the start of the rest to gain its benefits."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Long Rest",
+						"entries": [
+								"A long rest is a greatly extended period of downtime, at least 24 hours long, which occurs in a place of relative safety, such as a town or magically protected area. During this time, a chatacter must sleep for at least 6 hours, and may perform downtime activities during the remainder of the time. If the rest is interrupted by a period of strenuous activity— such as walking, fighting, expending spell slots, or similar adventuring activity, the characters must begin the rest again to gain any benefit from it.",
+								"At the end of a long rest, a character regains all lost hit points and has their exhaustion level reduced to zero. The character also regains spent Hit Dice, up to a number of dice equal to half of the character's total number of them. You regain at least 1 Hit Die when you finish a long rest."
+						]
+					}
+				]
+		}
+	]
+}
