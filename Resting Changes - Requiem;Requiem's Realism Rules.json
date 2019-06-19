@@ -8,7 +8,7 @@
 				"authors": [
 					"Requiem"
 				],
-				"version": "1.11",
+				"version": "1.12",
 				"url": "https://github.com/RequiemtheDM/Requiem-s-Realism-Homerules/blob/master/Resting%20Changes%20-%20Requiem;Requiem's%20Realism%20Rules.json#L1",
 				"targetSchema": "1.0.0"
 			}
@@ -24,7 +24,7 @@
 						"name": "Short Breather",
 						"entries": [
 								"A short breather is a period of downtime, at least 5 minutes long during which a character does nothing more strenuous than eating, drinking, reading, and tending to wounds.",
-								"A character who makes or is the target of a successful DC 10 Wisdom({@skill Medicine}) check regains hitpoints equal to their Constitution modifier(minimum of one hit point) at the end of a short breather. By expending one use of a {@item Healer's Kit|phb}, this check succeeds automatically."
+								"A character who is the target of a successful DC 10 Wisdom({@skill Medicine}) check regains hitpoints equal to their Constitution modifier(minimum of one hit point) at the end of a short breather. By expending one use of a {@item Healer's Kit|phb}, this check succeeds automatically."
 						]
 					},
 					{
@@ -32,7 +32,7 @@
 						"name": "Long Breather",
 						"entries": [
 								"A long breather is a period of downtime, at least one hour long, during which a character does nothing more strenuous than eating, drinking, reading, and tending to wounds.",
-								"At the end of a long breather, A character who makes or is the target of a successful DC 15 Wisdom({@skill Medicine}) check can spend one or more Hit Dice, up to half the character's maximum number of Hit Dice, which is equal to the character's level. Expending one use of a {@item Healer's Kit|phb} grants advantage on this check. For each Hit Die spent in this way, the player rolls the die and adds the character's Constitution modifier to it. The character regains hit points equal to the total. After applying your Constitution modifier to a Hit Die roll, you regain a minimum of 0 hit points. The player can decide to spend an additional Hit Die after each roll. A character regains some spent Hit Dice upon finishing a short or long rest, as explained below."
+								"At the end of a long breather, A character who is the target of a successful DC 15 Wisdom({@skill Medicine}) check can spend one or more Hit Dice, up to half the character's maximum number of Hit Dice, which is equal to the character's level. Expending one use of a {@item Healer's Kit|phb} grants advantage on this check. For each Hit Die spent in this way, the player rolls the die and adds the character's Constitution modifier to it. The character regains hit points equal to the total. After applying your Constitution modifier to a Hit Die roll, you regain a minimum of 0 hit points. The player can decide to spend an additional Hit Die after each roll. A character regains some spent Hit Dice upon finishing a short or long rest, as explained below."
 						]
 					},
 					{
@@ -40,7 +40,7 @@
 						"name": "Short Rest",
 						"entries": [
 								"A short rest is a period of extended downtime, at least eight hours long, during which a character sleeps for at least 6 hours and performs no more than 2 hours of light activity, such as reading, talking, eating, or standing watch. If the rest is interrupted by a period of strenuous activity— such as walking, fighting, expending spell slots, or similar adventuring activity, the characters must begin the rest again to gain any benefit from it.",
-								"At the end of a short rest, a character regains hit points equal to their level plus their Constitution modifier(minimum of one hit point). Additionally, a character who makes or is the target of a successful DC 15 Wisdom({@skill Medicine}) check regains spent Hit Dice, up to half the character's total number of them(minimum of one Hit Die). Expending one use of a {@item Healer's Kit|phb} grants advantage on this check.",
+								"At the end of a short rest, a character regains hit points equal to their level plus their Constitution modifier(minimum of one hit point). Additionally, a character who is the target of a successful DC 15 Wisdom({@skill Medicine}) check regains spent Hit Dice, up to half the character's total number of them(minimum of one Hit Die). Expending one use of a {@item Healer's Kit|phb} grants advantage on this check.",
 								"Additionally, at the end of a short rest, a character's current exhaustion level is reduced by one.",
 								"A character can't benefit from more than one short rest in a 24-hour period, and a character must have at least 1 hit point at the start of the rest to gain its benefits."
 						]
@@ -78,7 +78,7 @@
 						"type": "table",
 						"caption": "Better Weapon Attack Critical",
 						"colLables": [
-							"{@dice d100}",
+							"{@dice 1d100}",
 							"Effect"
 						],
 						"colStyles": [
@@ -241,7 +241,7 @@
 						"type": "table",
 						"caption": "Better Spell Critical",
 						"colLables": [
-							"{@dice d100}",
+							"{@dice 1d100}",
 							"Effect"
 						],
 						"colStyles": [
