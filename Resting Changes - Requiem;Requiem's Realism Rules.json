@@ -8,7 +8,7 @@
 				"authors": [
 					"Requiem"
 				],
-				"version": "1.10",
+				"version": "1.11",
 				"url": "https://github.com/RequiemtheDM/Requiem-s-Realism-Homerules/blob/master/Resting%20Changes%20-%20Requiem;Requiem's%20Realism%20Rules.json#L1",
 				"targetSchema": "1.0.0"
 			}
@@ -90,7 +90,7 @@
 								{
 									"type": "cell",
 									"roll": {
-										"exact": 001,
+										"exact": 1,
 										"pad": true
 									}
 								},
@@ -100,8 +100,8 @@
 								{
 									"type": "cell",
 									"roll": {
-										"min": 002,
-										"max": 009
+										"min": 2,
+										"max": 9
 									}
 								},
 								"You may choose to gain advantage on your next attack roll. If you do so, the next attack roll against you has advantage."
@@ -110,8 +110,8 @@
 								{
 									"type": "cell",
 									"roll": {
-										"min": 010,
-										"max": 014,
+										"min": 10,
+										"max": 14
 									}
 								},
 								"You gain advantage on your next attack roll."
@@ -120,8 +120,8 @@
 								{
 									"type": "cell",
 									"roll": {
-										"min": 015,
-										"max": 019,
+										"min": 15,
+										"max": 19
 									}
 								},
 								"You gain the benefits of the {@action Disengage} action until the end of your next turn."
@@ -130,8 +130,8 @@
 								{
 									"type": "cell",
 									"roll": {
-										"min": 020,
-										"max": 024,
+										"min": 20,
+										"max": 24
 									}
 								},
 								"Your Initiative increases by +5."
@@ -140,8 +140,8 @@
 								{
 									"type": "cell",
 									"roll": {
-										"min": 025,
-										"max": 029,
+										"min": 25,
+										"max": 29
 									}
 								},
 								"You gain +2 to your AC against your target until the end of your next turn."
@@ -150,8 +150,8 @@
 								{
 									"type": "cell",
 									"roll": {
-										"min": 030,
-										"max": 039,
+										"min": 30,
+										"max": 39
 									}
 								},
 								"After your attack, you may choose to attempt to grapple or shove your target."
@@ -160,8 +160,8 @@
 								{
 									"type": "cell",
 									"roll": {
-										"min": 040,
-										"max": 049,
+										"min": 40,
+										"max": 49
 									}
 								},
 								"After your attack, you may choose to automatically grapple or shove your target."
@@ -170,8 +170,8 @@
 								{
 									"type": "cell",
 									"roll": {
-										"min": 050,
-										"max": 059,
+										"min": 50,
+										"max": 59
 									}
 								},
 								"You may attempt to disarm your target."
@@ -180,8 +180,8 @@
 								{
 									"type": "cell",
 									"roll": {
-										"min": 060,
-										"max": 069,
+										"min": 60,
+										"max": 69
 									}
 								},
 								"You may attempt to disarm your target and knock their weapon up to 20 feet away."
@@ -190,8 +190,8 @@
 								{
 									"type": "cell",
 									"roll": {
-										"min": 070,
-										"max": 074,
+										"min": 70,
+										"max": 74
 									}
 								},
 								"You gain the benefits of the {@action Dodge} action until the start of your next turn."
@@ -200,8 +200,8 @@
 								{
 									"type": "cell",
 									"roll": {
-										"min": 075,
-										"max": 079,
+										"min": 75,
+										"max": 79
 									}
 								},
 								"You may choose to knock your target {@condition Prone}."
@@ -210,8 +210,8 @@
 								{
 									"type": "cell",
 									"roll": {
-										"min": 080,
-										"max": 084,
+										"min": 80,
+										"max": 84
 									}
 								},
 								"Your target must succeed on a Constitution saving throw with a DC equal to half the damage dealt or become {@condition Stunned} until the end of your next turn."
@@ -220,8 +220,8 @@
 								{
 									"type": "cell",
 									"roll": {
-										"min": 085,
-										"max": 099,
+										"min": 85,
+										"max": 99
 									}
 								},
 								"You may roll one additional damage die and add the number rolled to the damage dealt."
@@ -253,7 +253,7 @@
 								{
 									"type": "cell",
 									"roll": {
-										"exact": 001,
+										"exact": 1,
 										"pad": true
 									}
 								},
@@ -263,8 +263,8 @@
 								{
 									"type": "cell",
 									"roll": {
-										"min": 002,
-										"max": 009
+										"min": 2,
+										"max": 9
 									}
 								},
 								"You may choose to gain advantage on your next attack roll. If you do so, the next attack roll against you has advantage."
@@ -273,8 +273,8 @@
 								{
 									"type": "cell",
 									"roll": {
-										"min": 010,
-										"max": 014
+										"min": 10,
+										"max": 14
 									}
 								},
 								"You gain advantage on your next attack roll."
@@ -283,8 +283,8 @@
 								{
 									"type": "cell",
 									"roll": {
-										"min": 015,
-										"max": 019
+										"min": 15,
+										"max": 19
 									}
 								},
 								"You gain the benefits of the {@action Disengage} action until the end of your next turn."
@@ -293,8 +293,8 @@
 								{
 									"type": "cell",
 									"roll": {
-										"min": 020,
-										"max": 024
+										"min": 20,
+										"max": 24
 									}
 								},
 								"Your Initiative increases by +5."
@@ -303,8 +303,8 @@
 								{
 									"type": "cell",
 									"roll": {
-										"min": 025,
-										"max": 029
+										"min": 25,
+										"max": 29
 									}
 								},
 								"You target's movement speed is halved until the end of your next turn."
@@ -313,8 +313,8 @@
 								{
 									"type": "cell",
 									"roll": {
-										"min": 030,
-										"max": 039
+										"min": 30,
+										"max": 39
 									}
 								},
 								"Your target is unable to take reactions until the end of your next turn."
@@ -323,8 +323,8 @@
 								{
 									"type": "cell",
 									"roll": {
-										"min": 040,
-										"max": 049
+										"min": 40,
+										"max": 49
 									}
 								},
 								"Your target is {@condition Frightened} of you until the end of your next turn."
@@ -333,8 +333,8 @@
 								{
 									"type": "cell",
 									"roll": {
-										"min": 050,
-										"max": 059
+										"min": 50,
+										"max": 59
 									}
 								},
 								"Your target must succeed on a Constitution saving throw with a DC equal to half the damage dealt or become {@condition Blinded} until the end of your next turn."
@@ -343,8 +343,8 @@
 								{
 									"type": "cell",
 									"roll": {
-										"min": 060,
-										"max": 069
+										"min": 60,
+										"max": 69
 									}
 								},
 								"Your target must succeed on a Strength saving throw with a DC equal to half the damage dealt or have their weapon flung {@dice 1d6x5} feet in a random direction."
@@ -353,8 +353,8 @@
 								{
 									"type": "cell",
 									"roll": {
-										"min": 070,
-										"max": 074
+										"min": 70,
+										"max": 74
 									}
 								},
 								"You gain the benefits of the {@action Dodge} action until the start of your next turn."
@@ -363,8 +363,8 @@
 								{
 									"type": "cell",
 									"roll": {
-										"min": 075,
-										"max": 079
+										"min": 75,
+										"max": 79
 									}
 								},
 								"You may choose to knock your target {@condition Prone}."
@@ -373,8 +373,8 @@
 								{
 									"type": "cell",
 									"roll": {
-										"min": 080,
-										"max": 084
+										"min": 80,
+										"max": 84
 									}
 								},
 								"Your target must succeed on a Constitution saving throw with a DC equal to half the damage dealt or become {@condition Stunned} until the end of your next turn."
@@ -383,8 +383,8 @@
 								{
 									"type": "cell",
 									"roll": {
-										"min": 085,
-										"max": 099
+										"min": 85,
+										"max": 99
 									}
 								},
 								"You may roll one additional damage die and add the number rolled to the damage dealt."
