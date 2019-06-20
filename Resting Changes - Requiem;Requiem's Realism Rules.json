@@ -2,13 +2,13 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "rrhr",
-				"abbreviation": "RRHR",
-				"full": "Requiem's Realism Homerules",
+				"json": "rhr",
+				"abbreviation": "RHR",
+				"full": "Requiem's Homerules",
 				"authors": [
 					"Requiem"
 				],
-				"version": "1.13",
+				"version": "1.2",
 				"url": "https://github.com/RequiemtheDM/Requiem-s-Realism-Homerules/blob/master/Resting%20Changes%20-%20Requiem;Requiem's%20Realism%20Rules.json#L1",
 				"targetSchema": "1.0.0"
 			}
@@ -16,7 +16,7 @@
 	},
 	"variantrule": [
 		{
-			"source": "rrhr",
+			"source": "rhr",
 			"name": "Resting Changes",
 			"entries": [
 					{
@@ -71,7 +71,7 @@
 				]
 		},
 		{
-			"source": "rrhr",
+			"source": "rhr",
 			"name": "Better Criticals",
 			"entries": [
 					{
@@ -403,5 +403,91 @@
 					
 				]
 		}	
+	],
+	"race": [
+			{
+				"name": "Revised Half-Orc",
+				"source": "rhr",
+				"size": "M",
+				"speed": 30,
+				"darkvision": 60,
+				"ability": {
+					"con": 2,
+					"choose": [
+						{
+							"from": [
+								"str",
+								"dex",
+								"int",
+								"wis",
+								"cha"
+							],
+							"count": 2
+						}
+					]
+				},
+				"entries": [
+					{
+						"name": "Age",
+						"type": "entries",
+						"entries": [
+							"Half-orcs mature a little faster than humans, reaching adulthood around age 14. They age noticeably faster and rarely live longer than 75 years."
+						]
+					},
+					{
+						"name": "Alignment",
+						"type": "entries",
+						"entries": [
+							"Half-orcs inherit a tendency toward chaos from their orc parents and are not strongly inclined toward good. Half-orcs raised among orcs and willing to live out their lives among them are usually evil."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Size",
+						"entries": [
+							"Half-orcs are somewhat larger and bulkier than humans, and they range from 5 to well over 6 feet tall. Your size is Medium."
+						]
+					},
+					{
+						"name": "Darkvision",
+						"entries": [
+							"Thanks to your orc blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+						],
+						"type": "entries"
+					},
+					{
+						"name": "Relentless Endurance",
+						"entries": [
+							"When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest."
+						],
+						"type": "entries"
+					},
+					{
+						"name": "Skill Versatility",
+						"entries": [
+							"You gain proficiency in two skills of your choice."
+						],
+						"type": "entries"
+					},
+					{
+						"name": "Languages",
+						"entries": [
+							"You can speak, read, and write Common, Orcish, and one extra language of your choice."
+						],
+						"type": "entries"
+					}
+				],
+				"soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/262/half-orc.mp3",
+				"traitTags": [
+					"Skill Proficiency",
+					"Uncommon Race"
+				],
+				"languageTags": [
+					"Common",
+					"Orc",
+					"Dwarvish",
+					"Choose"
+				]
+			}
 	]
 }
