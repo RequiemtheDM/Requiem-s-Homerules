@@ -8,7 +8,7 @@
 				"authors": [
 					"Requiem"
 				],
-				"version": "1.41",
+				"version": "1.42",
 				"url": "https://github.com/RequiemtheDM/Requiem-s-Realism-Homerules/blob/master/Resting%20Changes%20-%20Requiem;Requiem's%20Realism%20Rules.json#L1",
 				"targetSchema": "1.0.0"
 			}
@@ -49,7 +49,7 @@
 						"type": "entries",
 						"name": "Long Rest",
 						"entries": [
-								"A long rest is a greatly extended period of downtime, at least 24 hours long, which occurs in a place of relative safety, such as a town or magically protected area. During this time, a chatacter must sleep for at least 6 hours, and may perform downtime activities during the remainder of the time. If the rest is interrupted by a period of strenuous activity— such as walking, fighting, expending spell slots, or similar adventuring activity, the characters must begin the rest again to gain any benefit from it.",
+								"A long rest is a greatly extended period of downtime, at least 24 hours long, which occurs in a place of relative safety, such as a town or magically protected area. During this time, a character must sleep for at least 6 hours, and may perform downtime activities during the remainder of the time. If the rest is interrupted by a period of strenuous activity— such as walking, fighting, expending spell slots, or similar adventuring activity, the characters must begin the rest again to gain any benefit from it.",
 								"At the end of a long rest, a character regains all lost hit points and has their exhaustion level reduced to zero. The character also regains spent Hit Dice, up to a number of dice equal to half of the character's total number of them. You regain at least 1 Hit Die when you finish a long rest."
 						]
 					},
@@ -771,7 +771,7 @@
 												"type": "entries",
 												"name": "Bolt Launcher",
 												"entries": [
-														"This small device strongly resembles a modified hand crossbow, sharing its range and other properties. You are considered proficient in its use, and can load it with any tiny object weighing 5 pounds or less as ammunition. On a hit, a target suffers damage of a type appropriate to the ammunition equal to 1d6 plus your Dexterity modifier.",
+														"This small device strongly resembles a modified {@item hand crossbow|phb}, sharing its range and other properties. You are considered proficient in its use, and can load it with any tiny object weighing 5 pounds or less as ammunition. On a hit, a target suffers damage of a type appropriate to the ammunition equal to 1d6 plus your Dexterity modifier.",
 														"Creation DC 20"
 												]
 											},
