@@ -8,7 +8,7 @@
 				"authors": [
 					"Requiem"
 				],
-				"version": "1.44",
+				"version": "1.45",
 				"url": "https://github.com/RequiemtheDM/Requiem-s-Homerules/blob/master/Homerules",
 				"targetSchema": "1.0.0"
 			}
@@ -747,7 +747,7 @@
 								{
 									"name": "Draconic Blood",
 									"entries": [
-											"You may cast any first level spell from the sorcerer spell list that you do not know without expending a spell slot, instead expend one Hit Die, and subtract the highest possible number from your maximum hit points. The reduction to your maximum hitpoints lasts until the conclusion of your next long rest."
+											"You may cast any first level spell from the sorcerer spell list that you do not know without expending a spell slot, instead expend one Hit Die, and subtract the highest possible number on the die from your maximum hit points. The reduction to your maximum hitpoints lasts until the conclusion of your next long rest."
 									],
 									"data": {
 										"overwrite": "Pack Tactics"
